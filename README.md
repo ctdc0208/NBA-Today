@@ -1,1 +1,1 @@
-# NBA-Today
+# NBA Today
