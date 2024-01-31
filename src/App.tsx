@@ -1,12 +1,11 @@
 import Header from './Header'
+import Games from './Games'
 
 function App() {
   return (
     <>
       <Header />
-      <div>
-        Hello
-      </div>
+      <Games />
     </>
   )
 }
