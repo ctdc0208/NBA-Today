@@ -13,18 +13,54 @@ export default function Games() {
                 <table>
                     <tbody className="bg-bg-card-black min-h-full text-font-white-game">
                         <tr>
-                            <td>
+                            <td className="pl-6 py-8">
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td>ICON</td>
-                                            <td>Raptors</td>
-                                            <td>Score</td>
+                                            <td>
+                                                <img 
+                                                    className="h-6 w-6"
+                                                    src="src\assets\Nba Team Logos\28.png" 
+                                                    title="team logo"
+                                                />
+                                            </td>
+                                            <td>
+                                                <div
+                                                    className="ml-2"
+                                                >
+                                                    Raptors
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div
+                                                    className="ml-40"
+                                                >
+                                                    118
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td>ICON</td>
-                                            <td>Bulls</td>
-                                            <td>Score</td>
+                                            <td>
+                                                <img 
+                                                    className="h-6 w-6 mt-2"
+                                                    src="src\assets\Nba Team Logos\5.png" 
+                                                    title="team logo"
+                                                />
+                                            </td>
+                                            <td>
+                                                <div
+                                                    className="mt-2 ml-2"
+                                                >
+                                                    Bulls
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div
+                                                     className="mt-2 ml-40"
+                                                >
+                                                    117
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Final</td>
@@ -34,18 +70,54 @@ export default function Games() {
                                     </tbody>
                                 </table>
                             </td>
-                            <td>
-                                <table>
+                            <td className="pl-6 py-6">
+                            {/* <table>
                                     <tbody>
                                         <tr>
-                                            <td>ICON</td>
-                                            <td>Raptors</td>
-                                            <td>Score</td>
+                                            <td>
+                                                <img 
+                                                    className="h-6 w-6"
+                                                    src="src\assets\Nba Team Logos\28.png" 
+                                                    title="team logo"
+                                                />
+                                            </td>
+                                            <td>
+                                                <div
+                                                    className="ml-4"
+                                                >
+                                                    Raptors
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div
+                                                    className="ml-10"
+                                                >
+                                                    118
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td>ICON</td>
-                                            <td>Bulls</td>
-                                            <td>Score</td>
+                                            <td>
+                                                <img 
+                                                    className="h-6 w-6"
+                                                    src="src\assets\Nba Team Logos\5.png" 
+                                                    title="team logo"
+                                                />
+                                            </td>
+                                            <td>
+                                                <div
+                                                     className="ml-4"
+                                                >
+                                                    Bulls
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div
+                                                     className="ml-10"
+                                                >
+                                                    117
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Final</td>
@@ -53,7 +125,7 @@ export default function Games() {
                                             <td>Video</td>
                                         </tr>
                                     </tbody>
-                                </table>
+                            </table> */}
                             </td>
                         </tr>
                     </tbody>
