@@ -8,8 +8,8 @@
 
 function GameStats() {
     return (
-        <td className="pl-6 py-8">
-            <table>
+        <td className="pl-5 py-7 border-x border-border-card border-solid border-collapse table-auto">
+            <table className="table-auto">
                 <tbody>
                     <tr>
                         <td className="p-0">
@@ -26,15 +26,18 @@ function GameStats() {
                                 Raptors
                             </div>
                         </td>
-                        <td className="p-0">
-                            <div
-                                className="ml-4"
-                            >
-                                118
+                        <td className="p-0 align-middle">
+                            <div className="flex flex-row">
+                                <div
+                                    className="ml-28"
+                                >
+                                    118
+                                </div>
+                                <svg className="my-auto ml-2" aria-label="Winner" height="8" role="img" width="6"><polygon fill="#fff" points="6,0 6,8 0,4"></polygon></svg>
                             </div>
                         </td>
                         <td className="p-0">
-                            <div className="border-solid border-l-2 border-border-table ml-4 pl-4 text-center">
+                            <div className=" ml-4 pl-4 pt-4 border-solid border-l-2 border-border-table  text-center">
                                 Final
                             </div>
                         </td>
@@ -49,20 +52,20 @@ function GameStats() {
                         </td>
                         <td className="p-0">
                             <div
-                                className="mt-2 ml-2"
+                                className="mt-2 ml-2 text-font-gray"
                             >
                                 Bulls
                             </div>
                         </td>
                         <td className="p-0">
                             <div
-                                className="mt-2 ml-4"
+                                className="mt-2 ml-28 text-font-gray"
                             >
                                 117
                             </div>
                         </td>
                         <td className="p-0">
-                            <div className="pt-2 border-solid border-l-2 border-border-table ml-4 pl-4 text-center">
+                            <div className="pb-4 ml-4 pl-4 border-solid border-l-2 border-border-table text-justify align-text-top text-font-gray text-xs">
                             Wed, Jan 31
                             </div>
                         </td>
@@ -75,10 +78,9 @@ function GameStats() {
 
 function Table(){
     return (
-        <table>
+        <table className="border-y border-border-card border-solid border-collapse table-auto">
             <tbody className="bg-bg-card-black min-h-full text-font-white-game">
                 <tr>
-                   <GameStats />
                    <GameStats />
                 </tr>
             </tbody>
@@ -90,8 +92,7 @@ export default function Games() {
     return (
         <div className="h-svh bg-bg-black">
             <div className="flex flex-col w-760 mx-auto">
-                <div className="text-font-white-game p-4 border-border-card border-solid border-y">Today</div>
-                    <Table />
+                <div className="text-font-white-game p-4">Today</div>
                     <Table />
             </div>
         </div>

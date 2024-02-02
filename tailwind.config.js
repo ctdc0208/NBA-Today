@@ -12,6 +12,7 @@ export default {
         'border-card': '#3c4043',
         'border-table': '#808080',
         'font-white-game' : '#bdc1c6',
+        'font-gray': '#9aa0a6',
       },
       width: {
         '760': '47.5rem',
